@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="qty_available">
+        <t t-if="product.qty_available">
+            <h6 class="o_wsdc_qty_available text-muted" contenteditable="false"><span class="o_wsdc_qty_available_label">A Mano:</span> <span class="o_wsdc_qty_available_value" t-field="product.qty_available"/></h6>
+        </t>
+    </template>
+</odoo>
